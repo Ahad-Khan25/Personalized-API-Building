@@ -8,5 +8,5 @@
 from fastapi import FastAPI
 from .routes import router
 
-app = FastAPI(title="API Practice")
+app = FastAPI(title="Ahad's API")
 app.include_router(router)
